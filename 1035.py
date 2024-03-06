@@ -1,11 +1,6 @@
 A, B, C, D = map(int, input().split())
 
-B > C
-D > A
-
-C + D > A + B
-
-C == positivo  
-D == positivo
-
-A == par
+if B > C and D > A and C + D > A + B and C > 0 and D > 0 and A % 2 == 0:
+    print("Valores aceitos")
+else:
+    print("Valores nao aceitos")
