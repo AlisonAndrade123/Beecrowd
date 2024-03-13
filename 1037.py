@@ -1,4 +1,4 @@
-v = int(input())
+v = float(input())
 
 if 0 <= v <= 25:
     print("Intervalo [0,25]")
