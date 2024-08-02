@@ -11,4 +11,4 @@ for t in range(casos_de_teste):
     if eh_primo:
         print(f'{n} eh primo')
     else:
-        print('')
+        print(f'{n} nao eh primo')
